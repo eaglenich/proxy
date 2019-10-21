@@ -1,0 +1,8 @@
+stages:
+  - copy files
+
+copy files:
+  stage: "copy files"
+  script:
+    - wget -r --no-parent http://cs-repo.qulix.com/content/groups/public/org/apache/httpcomponents/httpclient/4.2.1/
+    
